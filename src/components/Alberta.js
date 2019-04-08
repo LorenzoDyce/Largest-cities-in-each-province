@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Bar, Line, Pie } from 'react-chartjs-2';
 
 
 class Alberta extends Component {
@@ -28,7 +29,7 @@ class Alberta extends Component {
     render() { 
         return ( <div className="chart">
         <Bar
-          data={this.state.chartData}
+          data={this.state.albertaData}
           options={{
             title: {
               display: true,

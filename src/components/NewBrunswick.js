@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Bar, Line, Pie } from 'react-chartjs-2';
+import { Bar} from 'react-chartjs-2';
 
 
 
@@ -47,10 +47,10 @@ class NewBrunswick extends Component {
                     },
                     layout: {
                       padding: {
-                        left: 90,
-                        right: 90,
+                        left: 100,
+                        right: 100,
                         bottom: 40,
-                        top: 40
+                        top: 110
                       }
                     },
                     tooltips: {

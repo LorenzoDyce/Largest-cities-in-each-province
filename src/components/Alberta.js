@@ -45,10 +45,10 @@ class Alberta extends Component {
             },
             layout: {
               padding: {
-                left: 90,
-                right: 90,
+                left: 100,
+                right: 100,
                 bottom: 40,
-                top: 40
+                top: 110
               }
             },
             tooltips: {

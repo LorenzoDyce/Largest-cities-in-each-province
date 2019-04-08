@@ -7,7 +7,7 @@ import Manitoba from './components/Manitoba'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Alberta />
         <BritishColumbia />
         <Manitoba/>

@@ -22,30 +22,30 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div>
-      <Navigation />
-        <Switch>
-      
-        <Route path="/" component={Home} exact />
-        <Route path="/alberta" component={Alberta}/>
-        <Route path="/britishColumbia" component={BritishColumbia}/>
-        <Route path="/manitoba" component={Manitoba}/>
-        <Route path="/newbrunswick" component={NewBrunswick}/>
-        <Route path="/newfoundlandAndlabrador" component={NewfoundlandAndLabrador}/>
-        <Route path="/novascotia" component={NovaScotia}/>
-        <Route path="/ontario" component={Ontario}/>
-        <Route path="/princeedwardisland" component={PrinceEdwardIsland}/>
-        <Route path="/quebec" component={Quebec}/>
-        <Route path="/saskatchewan" component={Saskatchewan}/>
-        <Route path="/northwestterritories" component={NorthwestTerritories}/>
-        <Route path="/nunavut" component={Nunavut}/>
-        <Route path="/yukon" component={Yukon}/>
-        <Route component={Error} />
-        
-        
-      </Switch>
-      </div>
-        </BrowserRouter>
+        <div>
+          <Navigation />
+          <Switch>
+
+            <Route path="/" component={Home} exact />
+            <Route path="/alberta" component={Alberta} />
+            <Route path="/britishColumbia" component={BritishColumbia} />
+            <Route path="/manitoba" component={Manitoba} />
+            <Route path="/newbrunswick" component={NewBrunswick} />
+            <Route path="/newfoundlandAndlabrador" component={NewfoundlandAndLabrador} />
+            <Route path="/novascotia" component={NovaScotia} />
+            <Route path="/ontario" component={Ontario} />
+            <Route path="/princeedwardisland" component={PrinceEdwardIsland} />
+            <Route path="/quebec" component={Quebec} />
+            <Route path="/saskatchewan" component={Saskatchewan} />
+            <Route path="/northwestterritories" component={NorthwestTerritories} />
+            <Route path="/nunavut" component={Nunavut} />
+            <Route path="/yukon" component={Yukon} />
+            <Route component={Error} exact />
+
+
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }

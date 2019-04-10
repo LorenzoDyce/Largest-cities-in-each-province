@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Bar } from 'react-chartjs-2';
+import { Pie } from 'react-chartjs-2';
 
 
 
@@ -16,13 +16,12 @@ class NorthwestTerritories extends Component {
                     label: 'Population',
                     data: [18352, 3403, 2806],
                     backgroundColor: [
-                      'rgba(255, 99, 132, 0.6)',
-                      'rgba(54, 162, 235, 0.6)',
+                      'rgba(34, 5, 255, 0.6)',
+                      'rgba(255, 5, 246, 0.6)',
                       'rgba(255, 206, 86, 0.6)',
-                      'rgba(75, 192, 192, 0.6)',
+                      'rgba(5, 255, 163, 0.6)',
                       'rgba(153, 102, 255, 0.6)',
-                      'rgba(255, 159, 64, 0.6)',
-                      'rgba(255, 99, 132, 0.6)'
+                      'rgba(221, 255, 5, 0.6)'
                     ],
                   }
                 ]
@@ -32,7 +31,7 @@ class NorthwestTerritories extends Component {
           render() {
             return (
               <div className="chart">
-                <Bar
+                <Pie
                   data={this.state.northwestTerritoriesData}
                   options={{
                     title: {
@@ -41,7 +40,7 @@ class NorthwestTerritories extends Component {
                       fontSize: 30
                     },
                     legend: {
-                      display: false,
+                      display: true,
                       position: 'bottom',
                       labels: {
                         fontColor: '#000'

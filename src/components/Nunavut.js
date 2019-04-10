@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Bar } from 'react-chartjs-2';
+import { Pie } from 'react-chartjs-2';
 
 
 
@@ -16,13 +16,12 @@ class Nunavut extends Component {
                     label: 'Population',
                     data: [6254, 2577, 1810, 1425, 1375, 1165],
                     backgroundColor: [
-                      'rgba(255, 99, 132, 0.6)',
+                      'rgba(153, 102, 255, 0.6)',
                       'rgba(54, 162, 235, 0.6)',
                       'rgba(255, 206, 86, 0.6)',
-                      'rgba(75, 192, 192, 0.6)',
-                      'rgba(153, 102, 255, 0.6)',
-                      'rgba(255, 159, 64, 0.6)',
-                      'rgba(255, 99, 132, 0.6)'
+                      'rgba(5, 9, 255, 0.6)',
+                      'rgba(5, 255, 25, 0.6)',
+                      'rgba(255, 113, 5, 0.6)'
                     ],
                   }
                 ]
@@ -32,7 +31,7 @@ class Nunavut extends Component {
           render() {
             return (
               <div className="chart">
-                <Bar
+                <Pie
                   data={this.state.nunavutData}
                   options={{
                     title: {
@@ -41,7 +40,7 @@ class Nunavut extends Component {
                       fontSize: 30
                     },
                     legend: {
-                      display: false,
+                      display: true,
                       position: 'bottom',
                       labels: {
                         fontColor: '#000'

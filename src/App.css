@@ -1,12 +1,10 @@
 body {
-  background-color:white;
+  background-color:rgb(240, 240, 240);
 }
 
 
-
 div.welcome {
-color:red;
 position: absolute;
-right: 700px;
-margin-top: 500px;
+right: 300px;
+margin-top: 150px;
 }

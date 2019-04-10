@@ -1,20 +1,35 @@
 a {
+    position: relative;
     font-size: 1rem;
-    padding-right: 1rem;
-    margin: 0rem;
+    padding: 0.5rem;
+    font-weight: 500;
 }
 
-
-a.current {
-    text-decoration: underline;
+a:visited { 
+    text-decoration: none;
+    color:rgb(0, 0, 0); 
+    
+    }
+a:hover { 
+  position: relative;
+  text-decoration: none;
+    }
+a:focus { 
+    text-decoration: none;
+    color:rgb(80, 122, 227);
+    
+    }
+a:hover, a:active {
+    position: relative;
+    text-decoration: none; 
+    color:rgb(255, 255, 255);
+    background-color: rgb(84, 84, 84);
+    border-radius: 5px;
 }
 
-current {
-    color: tomato
-}
 
 div.links {
     position: absolute;
     right: 100px;
-    margin-top: 20px;
+    margin-top: 40px;
 }

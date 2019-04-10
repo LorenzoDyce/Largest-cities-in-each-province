@@ -33,3 +33,48 @@ div.links {
     right: 100px;
     margin-top: 40px;
 }
+
+
+/* MEDIA QUERIES */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+     a {
+    position: relative;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    font-weight: 500;
+}
+
+a:visited { 
+    text-decoration: none;
+    color:rgb(34, 34, 34); 
+    
+    }
+a:hover { 
+  position: relative;
+  text-decoration: none;
+    }
+a:focus { 
+    text-decoration: none;
+    color:rgb(55, 54, 54);
+    
+    }
+a:hover, a:active {
+    position: relative;
+    text-decoration: none; 
+    color:rgb(255, 255, 255);
+    background-color: rgb(84, 84, 84);
+    border-radius: 5px;
+}
+
+
+div.links {
+    position: absolute;
+    right: 20px;
+    margin-top: 40px;
+}
+
+
+}

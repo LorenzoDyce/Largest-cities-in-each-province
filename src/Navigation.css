@@ -43,7 +43,7 @@ div.links {
      a {
     position: relative;
     font-size: 0.8rem;
-    padding: 0.2rem;
+    padding: 0.3rem;
     font-weight: 500;
 }
 
@@ -72,7 +72,7 @@ a:hover, a:active {
 
 div.links {
     position: absolute;
-    right: 20px;
+    right: -1px;
     margin-top: 40px;
 }
 

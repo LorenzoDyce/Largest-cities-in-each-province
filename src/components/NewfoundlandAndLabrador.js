@@ -16,13 +16,12 @@ class NewfoundlandAndLabrador extends Component {
                     label: 'Population',
                     data: [108860, 26199, 22957, 21389, 19806, 14171],
                     backgroundColor: [
-                      'rgba(255, 99, 132, 0.6)',
-                      'rgba(54, 162, 235, 0.6)',
+                      'rgba(0,250,154, 0.6)',
+                      'rgba(100,149,237, 0.6)',
                       'rgba(255, 206, 86, 0.6)',
                       'rgba(75, 192, 192, 0.6)',
                       'rgba(153, 102, 255, 0.6)',
-                      'rgba(255, 159, 64, 0.6)',
-                      'rgba(255, 99, 132, 0.6)'
+                      'rgba(148,0,211, 0.6)'
                     ],
                   }
                 ]

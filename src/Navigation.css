@@ -1,10 +1,13 @@
+@media only screen and (min-width: 992px) {
 a {
     font-size: 1rem;
     padding-right: 1rem;
     margin: 0rem;
 }
+}
 
 
+@media only screen and (min-width: 992px) {
 a.current {
     text-decoration: underline;
 }
@@ -12,9 +15,13 @@ a.current {
 current {
     color: tomato
 }
+}
 
+@media only screen and (min-width: 992px) {
 div.links {
     position: absolute;
     right: 100px;
     margin-top: 20px;
+}
+
 }

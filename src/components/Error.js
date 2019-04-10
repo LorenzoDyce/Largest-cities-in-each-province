@@ -1,11 +1,15 @@
 import React from 'react';
-
-
+import '../Error.css';
 
 const Error = () => {
-    return ( <div>
-        <h1>This page does not exist</h1>
-    </div> );
-}
- 
+  return (
+    <div className="fourohfour">
+      <img
+        src="https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/404-error.png"
+        alt=""
+      />
+    </div>
+  );
+};
+
 export default Error;

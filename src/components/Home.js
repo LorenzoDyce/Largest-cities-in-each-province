@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import '../App.css'
+import '../App.css';
+import CanadaMap from '../assets/CanadaMap.png';
 
 
 
 class Home extends Component {
     render() { 
         return ( <div className="welcome">
-            <h1>WELCOME TO CANADA</h1>
+            <img  src={CanadaMap}  alt="CanadianMap"/>
         </div> );
     }
 }
